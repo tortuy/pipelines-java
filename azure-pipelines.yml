@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: Azure Pipelines
+pool: Windows-Agent-Pool
 
 steps:
 - task: Maven@3
